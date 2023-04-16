@@ -23,13 +23,15 @@
       </style>
       <script src="https://archit0.markey.ai/api/lms/v1/init?pixel_id=490ad973-9920-42e8-80f8-5a8f77ceb84d"></script>
       <script>
-	      const p = document.getElementsByTagName('body')[0];
-	      p.addEventListener('mouseup', (e) => {
-		      const selection = e.target.innerHTML;
-		      if(selection) { 
-			      window.markey.collect('clicked_event', { "selected_text": selection});
-		      }
-	      });
+	      window.onload = function() {
+		      const p = document.getElementsByTagName('body')[0];
+		      p.addEventListener('mouseup', (e) => {
+			      const selection = e.target.innerHTML;
+			      if(selection) { 
+				      window.markey.collect('clicked_event', { "selected_text": selection});
+			      }
+		      });
+	      }
       </script>
    </head>
    <body class="w3-light-grey">

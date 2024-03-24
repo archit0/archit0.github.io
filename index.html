@@ -23,15 +23,15 @@
       </style>
       <script src="https://archit0.markey.ai/api/lms/v1/init?pixel_id=490ad973-9920-42e8-80f8-5a8f77ceb84d"></script>
       <script>
-	      window.onload = function() {
-		      const p = document.getElementsByTagName('body')[0];
-		      p.addEventListener('mouseup', (e) => {
-			      const selection = e.target.innerHTML;
-			      if(selection) { 
-				      window.markey.collect('clicked_event', { "selected_text": selection});
-			      }
-		      });
-	      }
+         window.onload = function() {
+          const p = document.getElementsByTagName('body')[0];
+          p.addEventListener('mouseup', (e) => {
+           const selection = e.target.innerHTML;
+           if(selection) { 
+            window.markey.collect('clicked_event', { "selected_text": selection});
+           }
+          });
+         }
       </script>
    </head>
    <body class="w3-light-grey">
@@ -51,8 +51,7 @@
                   </div>
                   <div class="w3-container">
                      <h1 style="margin-left:20%;">Archit Dwivedi</h1>
-                     <p><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-large"></i>B.TECH in Computer Science</p>
-                     <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large"></i>Engineering Lead</p>
+                     <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large"></i>Engineering Manager / Tech Architect</p>
                      <p><i class="fa fa-home fa-fw w3-margin-right w3-large"></i>Bengaluru, India</p>
                      <p><i class="fa fa-language fa-fw w3-margin-right w3-large"></i>English, Hindi, Morse code</p>
                   </div>
@@ -73,18 +72,22 @@
             <!-- Right Column -->
             <div class="w3-twothird">
                <div class="w3-container w3-card-2 w3-white">
-	       <h1 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge"></i>Timeline of Prominent Work</h1>
-		<div class="w3-container">
+                  <h1 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge"></i>Blogs</h1>
+                  <div class="w3-container">
+                     <h3>Read my latest blogs <a href="https://blog.archit0.com"> here(https://blog.archit0.com) </a> </h3>
+                  </div>
+                  <h1 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge"></i>Projects</h1>
+                  <div class="w3-container">
                      <h2 class="w3-opacity"><b>Markey.ai [2021-23]<b></h2>
                      <p>Marketing SAAS platform built for non-marketers, AI-driven automation making digital marketing and lead generation affordable for small business owners and startup founders working on shoe-string marketing budgets and no in-house marketing expertise</p>
-		     <p>Website url: <a target="blank" href="https://markey.ai">https://markey.ai/</a></p>
+                     <p>Website url: <a target="blank" href="https://markey.ai">https://markey.ai/</a></p>
                      <hr/>
                   </div>
-		  <div class="w3-container">
+                  <div class="w3-container">
                      <h2 class="w3-opacity"><b>Covid Vaccine Slot Notification [2021]<b></h2>
                      <p>Get instant push notification and email as soon as slot opens up</p>
                      <p>Playstore url: <a target="blank" href="https://play.google.com/store/apps/details?id=in.prgrm.reminder">https://play.google.com/store/apps/details?id=in.prgrm.reminder</a></p>
-		     <p>Website url: <a target="blank" href="https://vaccine.prgrm.in">https://vaccine.prgrm.in/</a></p>
+                     <p>Website url: <a target="blank" href="https://vaccine.prgrm.in">https://vaccine.prgrm.in/</a></p>
                      <hr/>
                   </div>
                   <div class="w3-container">
@@ -150,4 +153,3 @@
       </footer>
    </body>
 </html>
-

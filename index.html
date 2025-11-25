@@ -1,156 +1,750 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <!-- Google Tag Manager -->
-      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<html lang="en" class="scroll-smooth">
+<head>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
          })(window,document,'script','dataLayer','GTM-5KVXGV8');
       </script>
-      <!-- End Google Tag Manager -->
-      <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
-      <link rel="icon" type="image/x-icon" href="/favicon.ico">
-      <title>Archit Dwivedi</title>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="keywords" content="Archit Dwivedi, Engineering Manager, Technology Lead, Bangalore, Big data developer Bangalore, Software developer bangalore, java Developer, python developer, ai developer, go developer, Software developer, 
-         chain developer">
-      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-      <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <style>
-         html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-      </style>
-      <script src="https://archit0.markey.ai/api/lms/v1/init?pixel_id=490ad973-9920-42e8-80f8-5a8f77ceb84d"></script>
-      <script>
-         window.onload = function() {
-          const p = document.getElementsByTagName('body')[0];
-          p.addEventListener('mouseup', (e) => {
-           const selection = e.target.innerHTML;
-           if(selection) { 
-            window.markey.collect('clicked_event', { "selected_text": selection});
-           }
-          });
-         }
-      </script>
-   </head>
-   <body class="w3-light-grey">
-      <!-- Google Tag Manager (noscript) -->
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5KVXGV8"
-         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      <!-- End Google Tag Manager (noscript) -->
-      <!-- Page Container -->
-      <div class="w3-content w3-margin-top" style="max-width:1400px;">
-         <!-- The Grid -->
-         <div class="w3-row-padding">
-            <!-- Left Column -->
-            <div class="w3-third">
-               <div class="w3-white w3-text-grey w3-card-4">
-                  <div class="w3-display-container">
-                     <img src="dp.png" style="width:100%" alt="Archit Dwivedi">
-                  </div>
-                  <div class="w3-container">
-                     <h1 style="margin-left:20%;">Archit Dwivedi</h1>
-                     <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large"></i>Engineering Manager / Tech Architect</p>
-                     <p><i class="fa fa-home fa-fw w3-margin-right w3-large"></i>Bengaluru, India</p>
-                     <p><i class="fa fa-language fa-fw w3-margin-right w3-large"></i>English, Hindi, Morse code</p>
-                  </div>
-                  <div class="w3-container">
-                     <p class="w3-large"><b><i class="fa fa-cogs fa-fw w3-margin-right"></i>Skills</b></p>
-                     <p><i class="fa fa-dot-circle-o fa-fw w3-margin-right w3-medium"></i><b>Lanagues</b>: Java, Scala, Python, JS and GO</p>
-                     <p><i class="fa fa-dot-circle-o fa-fw w3-margin-right w3-medium"></i><b>DB</b>: Sql(Postgres, Redshift, Snowflake) NoSql(Mongo, Redis)</p>
-                     <p><i class="fa fa-dot-circle-o fa-fw w3-margin-right w3-medium"></i><b>Search DB</b>: Lucene, Solr, ElasticSearch</p>
-                     <p><i class="fa fa-dot-circle-o fa-fw w3-margin-right w3-medium"></i><b>Backend Framework</b>: Django, Express, Play</p>
-                     <p><i class="fa fa-dot-circle-o fa-fw w3-margin-right w3-medium"></i><b>Big Data</b>: Apache Storm, Kafka, Spark, Faust</p>
-                     <p><i class="fa fa-dot-circle-o fa-fw w3-margin-right w3-medium"></i><b>Front End:</b>: React, React native, Meteor</p>
-                     <p><i class="fa fa-dot-circle-o fa-fw w3-margin-right w3-medium"></i><b>Others</b>: Algo, DS, Design Pattern, Microservices, Blockchain- Decentralized Application, Generative AI, MCP, langchain, langgraph, openai, claude</p>
-                  </div>
-               </div>
-               <br>
-               <!-- End Left Column -->
+    <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archit Dwivedi | Engineering Manager & Tech Architect</title>
+    <meta name="description" content="Portfolio of Archit Dwivedi - Engineering Manager, Tech Architect, and Full Stack Developer based in Bengaluru.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        slate: {
+                            850: '#151f32',
+                            900: '#0f172a',
+                            950: '#020617',
+                        },
+                        accent: {
+                            400: '#2dd4bf', // teal-400
+                            500: '#14b8a6', // teal-500
+                            600: '#0d9488', // teal-600
+                        }
+                    },
+                    animation: {
+                        'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                    },
+                    keyframes: {
+                        fadeInUp: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #0f172a; 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155; 
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569; 
+        }
+
+        .glass-card {
+            background: rgba(30, 41, 59, 0.4);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        .skill-tag {
+            transition: all 0.3s ease;
+        }
+        .skill-tag:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(45, 212, 191, 0.2);
+            border-color: #2dd4bf;
+        }
+
+        .news-badge {
+            background: linear-gradient(135deg, #2dd4bf 0%, #0d9488 100%);
+        }
+
+        #bg-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -10;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-300 antialiased font-sans selection:bg-accent-500 selection:text-white">
+
+    <!-- Canvas Background -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 top-0 start-0 border-b border-white/10 bg-slate-950/80 backdrop-blur-md transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between px-6 py-4">
+            <a href="#" class="flex items-center space-x-2 rtl:space-x-reverse">
+                <span class="self-center text-xl font-bold whitespace-nowrap text-white font-mono">&lt;Archit0/&gt;</span>
+            </a>
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <a href="#contact" class="text-white bg-accent-600 hover:bg-accent-500 focus:ring-4 focus:outline-none focus:ring-accent-500/30 font-medium rounded-lg text-sm px-4 py-2 text-center transition-colors">
+                    Let's Talk
+                </a>
+                <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-400 rounded-lg md:hidden hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-700" aria-controls="navbar-sticky" aria-expanded="false" id="menu-toggle">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+                </button>
             </div>
-            <!-- Right Column -->
-            <div class="w3-twothird">
-               <div class="w3-container w3-card-2 w3-white">
-                  <h1 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge"></i>Blogs</h1>
-                  <div class="w3-container">
-                     <h3>Read my latest blogs <a href="https://blog.archit0.com"> here(https://blog.archit0.com) </a> </h3>
-                  </div>
-                  <h1 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge"></i>Projects</h1>
-                  <div class="w3-container">
-                     <h2 class="w3-opacity"><b>Markey.ai [2021-23]<b></h2>
-                     <p>Marketing SAAS platform built for non-marketers, AI-driven automation making digital marketing and lead generation affordable for small business owners and startup founders working on shoe-string marketing budgets and no in-house marketing expertise</p>
-                     <p>Website url: <a target="blank" href="https://markey.ai">https://markey.ai/</a></p>
-                     <hr/>
-                  </div>
-                  <div class="w3-container">
-                     <h2 class="w3-opacity"><b>Covid Vaccine Slot Notification [2021]<b></h2>
-                     <p>Get instant push notification and email as soon as slot opens up</p>
-                     <p>Playstore url: <a target="blank" href="https://play.google.com/store/apps/details?id=in.prgrm.reminder">https://play.google.com/store/apps/details?id=in.prgrm.reminder</a></p>
-                     <p>Website url: <a target="blank" href="https://vaccine.prgrm.in">https://vaccine.prgrm.in/</a></p>
-                     <hr/>
-                  </div>
-                  <div class="w3-container">
-                     <h2 class="w3-opacity"><b>Law Search Engine [2016]<b></h2>
-                     <p>Side project during hustling days in college. Had a successfull exit.</p>
-                     <p>Legal research application which contained judgments across all the major courts in India. </p>
-                     <h4 class="w3-opacity"> <a target="blank"  href="https://timesofindia.indiatimes.com/city/allahabad/free-software-for-apex-court-decisions/articleshow/63015973.cms?from=mdr"> CLICK HERE TO READ SUCCESS STORY</a></h4>
-                     <p><iframe width="250" height="150" src="https://www.youtube.com/embed/90tTiG2JjG0" frameborder="0" allowfullscreen></iframe></p>
-                     <hr/>
-                  </div>
-                  <div class="w3-container">
-                     <h2 class="w3-opacity"><b>PocketPill (Over 5 lakh downloads on Playstore)[2017]<b></h2>
-                     <p>Playstore url: <a target="blank" href="https://play.google.com/store/apps/details?id=com.teehalf.pocketpill&hl=en">https://play.google.com/store/apps/details?id=com.teehalf.pocketpill&hl=en</a></p>
-                     <p>Pocket Pill is an online medicine app trusted by doctors, pharmacists, nurses and people like you to get trusted drug information in Android. You can find the generic medicine and alternate brands in app and know about it's use (Mechanism of Action), Side Effects, Precautions, Food Interactions and Compare Prices.</p>
-                     <h4 class="w3-opacity"> <a target="blank"  href="https://yourstory.com/2017/03/pocket-pill/"> CLICK HERE TO READ SUCCESS STORY</a></h4>
-                     <hr>
-                  </div>
-                  <div class="w3-container">
-                     <h2 class="w3-opacity"><b>Nutrition detection of any food in the image [2017]<b></h2>
-                     <p><iframe width="250" height="150" src="https://www.youtube.com/embed/y2Zyw5fyasw" frameborder="0" allowfullscreen></iframe></p>
-                     <hr>
-                  </div>
-                  <div class="w3-container">
-                     <h3 class="w3-opacity"><b>Marketing AI [2017]<b></h3>
-                     <p>Internet Marketing done by AI
-                        Run 150+ SEO reports on your website instanteously to find technical bugs, turned into easy to follow tasks. Discover detailed guide on how to fix those errors and why it is important. Assign the tasks to your web development team or hire someone to do it quickly.
-                     </p>
-                     <hr>
-                  </div>
-               </div>
-               <!-- End Right Column -->
-               <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
-                  <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge"></i>Work Experience</h2>
-                  <div class="w3-container">
-                     <h5 class="w3-opacity"><b>Engineering Manager / <a href="https://gale.agency">Gale Partners (Bengaluru)</a></b></h5>
-                     <h6 class=""><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2017 - <span class="w3-tag w3-round">Current</span></h6>
-                     <hr>
-                  </div>
-                  <div class="w3-container">
-                     <h5 class="w3-opacity"><b>Full Stack Developer / <a href="https://smarter.codes">Smarter.codes (Bengaluru)</a></b></h5>
-                     <h6 class=""><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2017 - Oct 2017</h6>
-                     <p>Worked on Natural language processing, Big-data technologies and developed real time scalable applications.</p>
-                     <hr>
-                  </div>
-                  <div class="w3-container">
-                     <h5 class="w3-opacity"><b>Intern- Full Stack Developer / <a href="http://www.pocketpill.in/">PocketPill Teehalf solutions (Bengaluru)</a></b></h5>
-                     <h6 class=""><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2016 - Dec 2016</h6>
-                     <p>Worked on Scala (Play Framework) and Node.js to develop scalable applications.</p>
-                     <hr>
-                  </div>
-               </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-800 rounded-lg bg-slate-900 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent">
+                    <li>
+                        <a href="#about" class="block py-2 px-3 text-white bg-accent-600 rounded md:bg-transparent md:text-accent-400 md:p-0" aria-current="page">About</a>
+                    </li>
+                    <li>
+                        <a href="#success-stories" class="block py-2 px-3 text-gray-300 rounded hover:bg-gray-800 md:hover:bg-transparent md:hover:text-accent-400 md:p-0 transition-colors">Press</a>
+                    </li>
+                    <li>
+                        <a href="#experience" class="block py-2 px-3 text-gray-300 rounded hover:bg-gray-800 md:hover:bg-transparent md:hover:text-accent-400 md:p-0 transition-colors">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="block py-2 px-3 text-gray-300 rounded hover:bg-gray-800 md:hover:bg-transparent md:hover:text-accent-400 md:p-0 transition-colors">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#projects" class="block py-2 px-3 text-gray-300 rounded hover:bg-gray-800 md:hover:bg-transparent md:hover:text-accent-400 md:p-0 transition-colors">Projects</a>
+                    </li>
+                    <li>
+                        <a href="https://archit0.com" class="block py-2 px-3 text-gray-300 rounded hover:bg-gray-800 md:hover:bg-transparent md:hover:text-accent-400 md:p-0 transition-colors">Blog <i class="fas fa-external-link-alt text-xs ml-1"></i></a>
+                    </li>
+                </ul>
             </div>
-            <!-- End Grid -->
-         </div>
-         <!-- End Page Container -->
-      </div>
-      <footer class="w3-container w3-center w3-margin-top">
-         <p>Find me on social media.</p>
-         <a href="https://www.facebook.com/architdwivedi0"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-         <a href="https://www.instagram.com/architdwivedi/"><i class="fa fa-instagram w3-hover-opacity"></i>  </a>
-         <a href="https://www.twitter.com/architdwivedi0"><i class="fa fa-twitter w3-hover-opacity"></i></a>
-         <a href="https://www.linkedin.com/in/architdwivedi/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-      </footer>
-   </body>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="about" class="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
+        <!-- Background Decor (Handled by Canvas now, but keeping subtle glow) -->
+        <div class="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
+             <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-accent-600/5 rounded-full blur-[120px]"></div>
+             <div class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-purple-600/5 rounded-full blur-[120px]"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6 animate-fade-in-up">
+                <div class="inline-flex items-center px-3 py-1 rounded-full border border-accent-500/30 bg-accent-500/10 text-accent-400 text-sm font-mono mb-4">
+                    <span class="w-2 h-2 rounded-full bg-accent-400 mr-2 animate-pulse"></span>
+                    Available for new challenges
+                </div>
+                <h1 class="text-5xl md:text-7xl font-bold text-white tracking-tight">
+                    Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent-400 to-blue-500">Archit</span>
+                </h1>
+                <h2 class="text-2xl md:text-3xl font-medium text-slate-400">
+                    Engineering Manager & <br class="hidden md:block" /> Tech Architect
+                </h2>
+                <p class="text-lg text-slate-400 max-w-lg leading-relaxed">
+                    Based in <span class="text-white font-semibold">Bengaluru, India</span>. 9+ years of experience leading high-performance teams (25+ engineers) and architecting AI-driven platforms.
+                </p>
+                <div class="font-mono text-xs text-slate-600 pt-2">
+                    Languages: English, Hindi
+                </div>
+                
+                <div class="flex flex-wrap gap-4 pt-4">
+                    <a href="#contact" class="px-8 py-3.5 rounded-lg bg-accent-600 hover:bg-accent-500 text-white font-semibold transition-all shadow-lg shadow-accent-500/20">
+                        Contact Me
+                    </a>
+                    <a href="#projects" class="px-8 py-3.5 rounded-lg border border-slate-700 hover:border-accent-500 text-slate-300 hover:text-white hover:bg-slate-800 transition-all">
+                        View Work
+                    </a>
+                </div>
+            </div>
+            
+            <div class="relative hidden md:block animate-fade-in-up" style="animation-delay: 0.2s;">
+                <!-- Abstract Code/Tech Visualization -->
+                <div class="glass-card rounded-2xl p-6 font-mono text-sm shadow-2xl relative overflow-hidden group">
+                    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-accent-400 via-purple-500 to-blue-500"></div>
+                    <div class="flex space-x-2 mb-4">
+                        <div class="w-3 h-3 rounded-full bg-red-500/80"></div>
+                        <div class="w-3 h-3 rounded-full bg-yellow-500/80"></div>
+                        <div class="w-3 h-3 rounded-full bg-green-500/80"></div>
+                    </div>
+                    <div class="space-y-2 text-slate-400">
+                        <div class="flex">
+                            <span class="text-purple-400 mr-2">const</span>
+                            <span class="text-blue-400">architect</span>
+                            <span class="text-white mx-2">=</span>
+                            <span class="text-yellow-300">{</span>
+                        </div>
+                        <div class="pl-4 flex">
+                            <span class="text-slate-500 mr-2">name:</span>
+                            <span class="text-green-400">'Archit Dwivedi'</span>,
+                        </div>
+                        <div class="pl-4 flex">
+                            <span class="text-slate-500 mr-2">role:</span>
+                            <span class="text-green-400">'Engineering Manager'</span>,
+                        </div>
+                        <div class="pl-4 flex">
+                            <span class="text-slate-500 mr-2">expertise:</span>
+                            <span class="text-blue-300">[</span>
+                        </div>
+                        <div class="pl-8">
+                            <span class="text-green-400">'Engineering Manager'</span>, <br>
+                            <span class="text-green-400">'AI Architect'</span>, <br>
+                            <span class="text-green-400">'Solutions Architect'</span>, <br>
+                            <span class="text-green-400">'Leadership'</span>
+                        </div>
+                        <div class="pl-4 text-blue-300">]</div>
+                        <div class="text-yellow-300">};</div>
+                        
+                        <div class="pt-4 flex">
+                            <span class="text-purple-400 mr-2">await</span>
+                            <span class="text-blue-400">architect</span>.<span class="text-yellow-300">deployScale</span>();
+                        </div>
+                        <div class="pt-2 animate-pulse text-accent-400">
+                            > System Operational_
+                        </div>
+                    </div>
+                </div>
+                <!-- Decorative Elements behind card -->
+                <div class="absolute -z-10 -bottom-6 -right-6 w-full h-full border border-slate-700 rounded-2xl opacity-50"></div>
+            </div>
+        </div>
+        
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce text-slate-500">
+            <i class="fas fa-chevron-down text-xl"></i>
+        </div>
+    </section>
+
+    <!-- Success Stories / Press Section -->
+    <section id="success-stories" class="py-20 bg-slate-900/50 border-y border-white/5">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Success Stories & <span class="text-accent-400">Recognition</span></h2>
+                <p class="text-slate-400 max-w-2xl mx-auto">Featured work and media coverage of projects I've led and founded.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Story 1 -->
+                <div class="glass-card p-8 rounded-2xl relative overflow-hidden group hover:border-accent-500/50 transition-all">
+                    <div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+                        <i class="fas fa-newspaper text-6xl text-white"></i>
+                    </div>
+                    <div class="inline-block px-3 py-1 rounded text-xs font-bold text-slate-900 news-badge mb-4">
+                        DIGIDAY
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-accent-400 transition-colors">
+                        AlchemyAI Platform Launch
+                    </h3>
+                    <p class="text-slate-400 mb-6">
+                        Featured in Digiday: "GALE debuts generative AI platform for media buying". Led the R&D and core engineering for the AlchemyAI platform, operationalizing business workflows through autonomous agents.
+                    </p>
+                    <a href="https://digiday.com/media-buying/ai-briefing-gale-debuts-generative-ai-platform-for-media-buying/" target="_blank" class="inline-flex items-center text-accent-400 hover:text-white transition-colors font-medium">
+                        Read Article <i class="fas fa-arrow-right ml-2 text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Story 2 -->
+                <div class="glass-card p-8 rounded-2xl relative overflow-hidden group hover:border-accent-500/50 transition-all">
+                    <div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+                        <i class="fas fa-gavel text-6xl text-white"></i>
+                    </div>
+                    <div class="inline-block px-3 py-1 rounded text-xs font-bold text-slate-900 bg-white mb-4">
+                        TIMES OF INDIA
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-accent-400 transition-colors">
+                        Gesetz Archive Success
+                    </h3>
+                    <p class="text-slate-400 mb-6">
+                        Featured for creating "Free software for apex court decisions". A successful exit from a legal-tech startup that indexed gigabytes of legal data using Apache Lucene for offline search capabilities.
+                    </p>
+                    <a href="https://timesofindia.indiatimes.com/city/allahabad/free-software-for-ape-x-court-decisions/articleshow/63015973.cms" target="_blank" class="inline-flex items-center text-accent-400 hover:text-white transition-colors font-medium">
+                        Read Article <i class="fas fa-arrow-right ml-2 text-xs"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-24 bg-transparent relative">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-12 flex items-center">
+                <i class="fas fa-briefcase mr-4 text-accent-400 text-2xl"></i> Experience
+            </h2>
+
+            <div class="relative border-l border-slate-800 ml-4 md:ml-6 space-y-12">
+                <!-- Job 1 -->
+                <div class="relative pl-8 md:pl-12 group">
+                    <div class="absolute -left-[9px] top-2 w-4 h-4 rounded-full bg-slate-900 border-2 border-accent-500 group-hover:bg-accent-500 transition-colors"></div>
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
+                        <h3 class="text-xl font-bold text-white">Engineering Manager</h3>
+                        <span class="text-xs font-mono text-accent-400 bg-accent-500/10 px-2 py-1 rounded border border-accent-500/20">Dec 2020 - Present</span>
+                    </div>
+                    <h4 class="text-lg text-slate-400 mb-2">Gale Partners (Stagwell) <span class="text-sm text-slate-600">• Bengaluru</span></h4>
+                    <div class="text-slate-500 leading-relaxed space-y-2">
+                        <p>Leading a 25+ member engineering team. Responsible for shaping Engineering Culture & Processes.</p>
+                        <ul class="list-disc list-inside text-sm pl-2 marker:text-accent-500">
+                            <li>Driving <strong>AlchemyAI Platform</strong>: Developing multiple AI-powered agents/tools (Vertex AI, Azure AI Studio, LangChain).</li>
+                            <li>Previously led 15+ engineers for <strong>Markey.ai</strong>, a SaaS platform for SMB marketing automation.</li>
+                            <li>Architected highly scalable, multi-tenant microservices (10+ services).</li>
+                            <li>Full lifecycle recruiting and stakeholder engagement.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Job 2 -->
+                <div class="relative pl-8 md:pl-12 group">
+                    <div class="absolute -left-[9px] top-2 w-4 h-4 rounded-full bg-slate-900 border-2 border-slate-600 group-hover:border-accent-500 transition-colors"></div>
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
+                        <h3 class="text-xl font-bold text-white">Senior Software Engineer</h3>
+                        <span class="text-xs font-mono text-slate-400 bg-slate-800 px-2 py-1 rounded">Sep 2020 - Dec 2020</span>
+                    </div>
+                    <h4 class="text-lg text-slate-400 mb-2">Rakuten <span class="text-sm text-slate-600">• Bengaluru</span></h4>
+                    <p class="text-slate-500 leading-relaxed">
+                        Worked on R-pay (Fintech product). Redesigned a monolith server to microservices architecture.<br>
+                        <span class="text-xs text-slate-600 font-mono mt-1 block">Stack: Java, Struts, Oracle DB</span>
+                    </p>
+                </div>
+
+                <!-- Job 3 -->
+                <div class="relative pl-8 md:pl-12 group">
+                    <div class="absolute -left-[9px] top-2 w-4 h-4 rounded-full bg-slate-900 border-2 border-slate-600 group-hover:border-accent-500 transition-colors"></div>
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
+                        <h3 class="text-xl font-bold text-white">Full Stack Developer</h3>
+                        <span class="text-xs font-mono text-slate-400 bg-slate-800 px-2 py-1 rounded">Oct 2017 - Dec 2020</span>
+                    </div>
+                    <h4 class="text-lg text-slate-400 mb-2">Gale Partners <span class="text-sm text-slate-600">• Bengaluru</span></h4>
+                    <p class="text-slate-500 leading-relaxed">
+                        Built enterprise Digital Marketing Software and CDP from scratch. Integrated with DSPs and DMPs.<br>
+                        <span class="text-xs text-slate-600 font-mono mt-1 block">Stack: Python, Django, React, Kafka, Airflow, Redis, Redshift, AWS</span>
+                    </p>
+                </div>
+
+                <!-- Job 4 -->
+                <div class="relative pl-8 md:pl-12 group">
+                    <div class="absolute -left-[9px] top-2 w-4 h-4 rounded-full bg-slate-900 border-2 border-slate-600 group-hover:border-accent-500 transition-colors"></div>
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
+                        <h3 class="text-xl font-bold text-white">Full Stack Developer</h3>
+                        <span class="text-xs font-mono text-slate-400 bg-slate-800 px-2 py-1 rounded">Jan 2017 - Oct 2017</span>
+                    </div>
+                    <h4 class="text-lg text-slate-400 mb-2">Smarter.codes <span class="text-sm text-slate-600">• Bengaluru</span></h4>
+                    <p class="text-slate-500 leading-relaxed">Created a knowledge graph of world's data using Neo4j for ChatBots and RecSys. Built web crawlers on Apache Storm.</p>
+                </div>
+
+                <!-- Job 5 -->
+                <div class="relative pl-8 md:pl-12 group">
+                    <div class="absolute -left-[9px] top-2 w-4 h-4 rounded-full bg-slate-900 border-2 border-slate-600 group-hover:border-accent-500 transition-colors"></div>
+                    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
+                        <h3 class="text-xl font-bold text-white">Intern - Backend</h3>
+                        <span class="text-xs font-mono text-slate-400 bg-slate-800 px-2 py-1 rounded">Jun 2016 - Nov 2016</span>
+                    </div>
+                    <h4 class="text-lg text-slate-400 mb-2">Teehalf Solutions <span class="text-sm text-slate-600">• Bengaluru</span></h4>
+                    <p class="text-slate-500 leading-relaxed">Worked on APIs using Scala Play Framework and real-time apps with Node.js.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-24 bg-slate-900/50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Technical <span class="text-accent-400">Arsenal</span></h2>
+                <p class="text-slate-400 max-w-2xl mx-auto">A comprehensive stack honed over years of building scalable applications and managing engineering teams.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Skill Group 1: AI & GenAI -->
+                <div class="glass-card p-6 rounded-xl hover:bg-slate-800/50 transition-colors">
+                    <div class="w-12 h-12 rounded-lg bg-purple-500/10 flex items-center justify-center mb-4 text-purple-400">
+                        <i class="fas fa-brain text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-4">Generative AI & LLMs</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300">OpenAI</span>
+                        <span class="skill-tag px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300">Vertex AI</span>
+                        <span class="skill-tag px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300">LangChain</span>
+                        <span class="skill-tag px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300">LangGraph</span>
+                        <span class="skill-tag px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300">Bedrock</span>
+                        <span class="skill-tag px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300">Hugging Face</span>
+                        <span class="skill-tag px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300">Agents</span>
+                    </div>
+                </div>
+
+                <!-- Skill Group 2: Backend & Infrastructure -->
+                <div class="glass-card p-6 rounded-xl hover:bg-slate-800/50 transition-colors">
+                    <div class="w-12 h-12 rounded-lg bg-blue-500/10 flex items-center justify-center mb-4 text-blue-400">
+                        <i class="fas fa-server text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-4">Backend & Infra</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300">Python (Django)</span>
+                        <span class="skill-tag px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300">Java/Scala</span>
+                        <span class="skill-tag px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300">Microservices</span>
+                        <span class="skill-tag px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300">Docker & K8s</span>
+                        <span class="skill-tag px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300">AWS & GCP</span>
+                        <span class="skill-tag px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300">Jenkins</span>
+                    </div>
+                </div>
+
+                <!-- Skill Group 3: Data & Streaming -->
+                <div class="glass-card p-6 rounded-xl hover:bg-slate-800/50 transition-colors">
+                    <div class="w-12 h-12 rounded-lg bg-green-500/10 flex items-center justify-center mb-4 text-green-400">
+                        <i class="fas fa-database text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white mb-4">Data & Streaming</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="skill-tag px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300">PostgreSQL</span>
+                        <span class="skill-tag px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300">Kafka</span>
+                        <span class="skill-tag px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300">ElasticSearch</span>
+                        <span class="skill-tag px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300">Redis</span>
+                        <span class="skill-tag px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300">Airflow</span>
+                        <span class="skill-tag px-3 py-1 bg-slate-800 border border-slate-700 rounded-full text-xs text-slate-300">Snowflake</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-24 bg-slate-950">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Featured <span class="text-accent-400">Projects</span></h2>
+                <p class="text-slate-400">A selection of products and tools I've built.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Project 1 -->
+                <div class="glass-card rounded-xl overflow-hidden hover:shadow-2xl hover:shadow-accent-500/10 transition-all duration-300 group flex flex-col h-full">
+                    <div class="p-6 flex-grow">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-white group-hover:text-accent-400 transition-colors">Markey.ai</h3>
+                            <span class="text-xs font-mono text-slate-500 border border-slate-700 px-2 py-0.5 rounded">SaaS</span>
+                        </div>
+                        <p class="text-slate-400 text-sm mb-4">Marketing SAAS platform built for non-marketers. An AI-driven automation tool making digital marketing and lead generation affordable for small business owners.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs text-slate-500 bg-slate-800 px-2 py-1 rounded">AI Content Studio</span>
+                            <span class="text-xs text-slate-500 bg-slate-800 px-2 py-1 rounded">Omnichannel</span>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 mt-auto">
+                        <a href="https://markey.ai/" target="_blank" class="inline-flex items-center text-sm font-medium text-accent-400 hover:text-accent-300">
+                            Visit Site <i class="fas fa-arrow-right ml-2 text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="glass-card rounded-xl overflow-hidden hover:shadow-2xl hover:shadow-accent-500/10 transition-all duration-300 group flex flex-col h-full">
+                    <div class="p-6 flex-grow">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-white group-hover:text-accent-400 transition-colors">Law Search Engine</h3>
+                            <span class="text-xs font-mono text-slate-500 border border-slate-700 px-2 py-0.5 rounded">Gesetz</span>
+                        </div>
+                        <p class="text-slate-400 text-sm mb-4">"Gesetz Archive". Desktop software solution for legal firms. Utilized Apache Lucene for efficient indexing and searching of gigabytes of legal judgments.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs text-slate-500 bg-slate-800 px-2 py-1 rounded">JavaFX</span>
+                            <span class="text-xs text-slate-500 bg-slate-800 px-2 py-1 rounded">Lucene</span>
+                        </div>
+                    </div>
+                    <div class="px-6 pb-6 mt-auto">
+                         <span class="inline-flex items-center text-sm font-medium text-green-500">
+                            <i class="fas fa-check-circle mr-2"></i> Successful Exit
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="glass-card rounded-xl overflow-hidden hover:shadow-2xl hover:shadow-accent-500/10 transition-all duration-300 group flex flex-col h-full">
+                    <div class="p-6 flex-grow">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-white group-hover:text-accent-400 transition-colors">Covid Vaccine Slot</h3>
+                            <span class="text-xs font-mono text-slate-500 border border-slate-700 px-2 py-0.5 rounded">Utility</span>
+                        </div>
+                        <p class="text-slate-400 text-sm mb-4">Instant push notifications and emails as soon as vaccine slots opened up. Helped users book slots efficiently during the pandemic.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs text-slate-500 bg-slate-800 px-2 py-1 rounded">Node.js</span>
+                            <span class="text-xs text-slate-500 bg-slate-800 px-2 py-1 rounded">Public Service</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4: PocketPill -->
+                <div class="glass-card rounded-xl overflow-hidden hover:shadow-2xl hover:shadow-accent-500/10 transition-all duration-300 group flex flex-col h-full">
+                    <div class="p-6 flex-grow">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-xl font-bold text-white group-hover:text-accent-400 transition-colors">PocketPill</h3>
+                            <span class="text-xs font-mono text-slate-500 border border-slate-700 px-2 py-0.5 rounded">Health</span>
+                        </div>
+                        <p class="text-slate-400 text-sm mb-4">Online medicine app trusted by medical professionals. Find generic medicines and alternate brands. Over 5 lakh downloads.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs text-slate-500 bg-slate-800 px-2 py-1 rounded">Mobile</span>
+                            <span class="text-xs text-slate-500 bg-slate-800 px-2 py-1 rounded">Healthcare</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="py-16 bg-slate-900/30 border-t border-slate-800">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+             <h2 class="text-2xl font-bold text-white mb-8"><i class="fas fa-graduation-cap text-accent-400 mr-2"></i> Education</h2>
+             <div class="grid md:grid-cols-2 gap-6">
+                 <div class="bg-slate-900 p-6 rounded-xl border border-slate-800">
+                     <h3 class="text-lg font-semibold text-white">Bachelor of Technology</h3>
+                     <p class="text-accent-400 text-sm mb-2">Computer Science</p>
+                     <p class="text-slate-400 text-sm">United College of Engineering & Research, Prayagraj</p>
+                     <span class="text-xs text-slate-500 block mt-2">2013 - 2017</span>
+                 </div>
+                 <div class="bg-slate-900 p-6 rounded-xl border border-slate-800">
+                     <h3 class="text-lg font-semibold text-white">High School & Intermediate</h3>
+                     <p class="text-accent-400 text-sm mb-2">Science & Math</p>
+                     <p class="text-slate-400 text-sm">Boys High School & College, Prayagraj</p>
+                     <span class="text-xs text-slate-500 block mt-2">2001 - 2013</span>
+                 </div>
+             </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="bg-slate-950 border-t border-slate-900 py-16">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-white mb-8">Let's Build Something Amazing</h2>
+            <div class="flex justify-center gap-6 mb-12">
+                <a href="https://github.com/archit0" target="_blank" class="w-12 h-12 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:border-accent-500 hover:bg-slate-800 transition-all">
+                    <i class="fab fa-github text-xl"></i>
+                </a>
+                <a href="https://linkedin.com/in/architdwivedi" target="_blank" class="w-12 h-12 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:border-accent-500 hover:bg-slate-800 transition-all">
+                    <i class="fab fa-linkedin-in text-xl"></i>
+                </a>
+                <a href="https://twitter.com/archit0" target="_blank" class="w-12 h-12 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:border-accent-500 hover:bg-slate-800 transition-all">
+                    <i class="fab fa-twitter text-xl"></i>
+                </a>
+                <a href="mailto:me@archit0.com" class="w-12 h-12 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:border-accent-500 hover:bg-slate-800 transition-all">
+                    <i class="fas fa-envelope text-xl"></i>
+                </a>
+            </div>
+            <p class="text-slate-600 font-mono text-sm">
+                &copy; 2024 Archit Dwivedi. All rights reserved. <br>
+                <span class="text-xs opacity-50">Built with Code & Coffee in Bengaluru.</span>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const navbarSticky = document.getElementById('navbar-sticky');
+        const navbar = document.getElementById('navbar');
+
+        menuToggle.addEventListener('click', () => {
+            navbarSticky.classList.toggle('hidden');
+        });
+
+        // Navbar blur effect on scroll
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 20) {
+                navbar.classList.add('shadow-lg', 'bg-slate-950/90');
+                navbar.classList.remove('bg-slate-950/0');
+            } else {
+                navbar.classList.remove('shadow-lg', 'bg-slate-950/90');
+                navbar.classList.add('bg-slate-950/0');
+            }
+        });
+
+        // ----------------------------------------------------
+        // PARALLAX ANIMATION: CPU -> AI -> HUMAN
+        // ----------------------------------------------------
+        const canvas = document.getElementById('bg-canvas');
+        const ctx = canvas.getContext('2d');
+        let width, height;
+        let particles = [];
+        const numParticles = 150;
+        const accentColor = 'rgba(45, 212, 191, '; // teal-400
+
+        // Define resize
+        function resize() {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+            initParticles();
+        }
+        window.addEventListener('resize', resize);
+
+        // Particle Class
+        class Particle {
+            constructor(id) {
+                this.id = id;
+                this.x = Math.random() * width;
+                this.y = Math.random() * height;
+                this.vx = (Math.random() - 0.5) * 0.5;
+                this.vy = (Math.random() - 0.5) * 0.5;
+                this.baseX = this.x;
+                this.baseY = this.y;
+                this.targetX = this.x;
+                this.targetY = this.y;
+                this.size = Math.random() * 2 + 1;
+            }
+
+            update(scrollProgress) {
+                // Determine phase based on scrollProgress (0 to 1)
+                // 0.0 - 0.3: CPU (Grid)
+                // 0.3 - 0.6: Neural Net (Chaos/Constellation)
+                // 0.6 - 1.0: Human Brain (Sphere/Head)
+
+                let phase = 0; // 0=CPU, 1=Net, 2=Brain
+                let localProgress = 0;
+
+                if (scrollProgress < 0.3) {
+                    phase = 0;
+                    localProgress = scrollProgress / 0.3;
+                } else if (scrollProgress < 0.6) {
+                    phase = 1;
+                    localProgress = (scrollProgress - 0.3) / 0.3;
+                } else {
+                    phase = 2;
+                    localProgress = (scrollProgress - 0.6) / 0.4;
+                }
+
+                // Define Targets
+                if (phase === 0) {
+                    // CPU Grid State
+                    const gridSize = Math.ceil(Math.sqrt(numParticles));
+                    const spacing = 30;
+                    const offsetX = width / 2 - (gridSize * spacing) / 2;
+                    const offsetY = height / 2 - (gridSize * spacing) / 2;
+                    
+                    const row = Math.floor(this.id / gridSize);
+                    const col = this.id % gridSize;
+                    
+                    this.targetX = offsetX + col * spacing;
+                    this.targetY = offsetY + row * spacing;
+
+                } else if (phase === 1) {
+                    // Neural Net State (Explosion outwards)
+                    // Use random positions but push them out slightly from center
+                    const angle = (this.id / numParticles) * Math.PI * 2 * 3; // spirals
+                    const r = 200 + (this.id % 5) * 50;
+                    this.targetX = width / 2 + Math.cos(angle) * r;
+                    this.targetY = height / 2 + Math.sin(angle) * r;
+                
+                } else {
+                    // Human Brain State (Head Shape)
+                    // Simple circle/oval profile
+                    const r = 150;
+                    // Random point inside circle for brain matter
+                    const randomAngle = Math.random() * Math.PI * 2;
+                    const randomR = Math.sqrt(Math.random()) * r;
+                    
+                    // Maintain stable random targets for this phase
+                    // We generate a "brain position" based on ID to keep it deterministic per frame
+                    const brainAngle = (this.id * 137.5) * (Math.PI / 180); // golden angle
+                    const brainR = 120 * Math.sqrt((this.id + 1) / numParticles);
+                    
+                    this.targetX = width / 2 + Math.cos(brainAngle) * brainR;
+                    this.targetY = height / 2 + Math.sin(brainAngle) * brainR - 50; // Shift up slightly
+                }
+
+                // Interpolate towards target
+                const ease = 0.05;
+                this.x += (this.targetX - this.x) * ease;
+                this.y += (this.targetY - this.y) * ease;
+                
+                // Add slight noise
+                this.x += Math.sin(Date.now() * 0.001 + this.id) * 0.2;
+                this.y += Math.cos(Date.now() * 0.001 + this.id) * 0.2;
+            }
+
+            draw() {
+                ctx.fillStyle = accentColor + '0.6)';
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+
+        function initParticles() {
+            particles = [];
+            for (let i = 0; i < numParticles; i++) {
+                particles.push(new Particle(i));
+            }
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+            
+            // Calculate scroll progress (0 to 1)
+            const scrollTop = window.scrollY;
+            const docHeight = document.body.scrollHeight - window.innerHeight;
+            let scrollPercent = scrollTop / docHeight;
+            if (scrollPercent < 0) scrollPercent = 0;
+            if (scrollPercent > 1) scrollPercent = 1;
+
+            particles.forEach(p => {
+                p.update(scrollPercent);
+                p.draw();
+            });
+
+            // Draw connections
+            connectParticles(scrollPercent);
+
+            requestAnimationFrame(animate);
+        }
+
+        function connectParticles(progress) {
+            const maxDist = progress < 0.3 ? 40 : (progress < 0.6 ? 100 : 60); // CPU tight, Net loose, Brain tight
+            const opacityMultiplier = progress < 0.3 ? 0.2 : 0.15;
+
+            for (let a = 0; a < particles.length; a++) {
+                for (let b = a; b < particles.length; b++) {
+                    const dx = particles[a].x - particles[b].x;
+                    const dy = particles[a].y - particles[b].y;
+                    const distance = Math.sqrt(dx * dx + dy * dy);
+
+                    if (distance < maxDist) {
+                        ctx.strokeStyle = accentColor + (1 - distance / maxDist) * opacityMultiplier + ')';
+                        ctx.lineWidth = 1;
+                        ctx.beginPath();
+                        ctx.moveTo(particles[a].x, particles[a].y);
+                        ctx.lineTo(particles[b].x, particles[b].y);
+                        ctx.stroke();
+                    }
+                }
+            }
+        }
+
+        // Init
+        resize();
+        animate();
+
+    </script>
+</body>
 </html>
